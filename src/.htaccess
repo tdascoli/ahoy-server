@@ -1,0 +1,6 @@
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+
+  Options -MultiViews
+  RewriteRule ^/?event(?:/(?:.*/)?([^/]+))?/?$ index.php?event=$1 [L,NC,QSA]
+</IfModule>

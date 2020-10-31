@@ -1,0 +1,23 @@
+body {
+  font-family: 'Inter', sans-serif !important;
+}
+
+@font-face {
+      font-family: "Agneya";
+      font-weight: normal;
+      src:url('../assets/agneya_regular.otf') format("opentype");
+}
+
+.ahoy_title {
+  font-family: "Agneya", 'Inter Black', "Arial Black", sans-serif;
+  color: #002171;
+  font-size: 3.5rem;
+}
+
+.btn-link {
+  cursor: pointer;
+
+  &.current {
+    text-decoration: underline !important;
+  }
+}

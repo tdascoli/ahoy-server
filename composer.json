@@ -1,0 +1,14 @@
+{
+    "name": "dat/ahoy-server",
+    "require": {
+        "vlucas/phpdotenv": "^5.2",
+        "ext-pdo": "*"
+    },
+    "license": "Apache",
+    "authors": [
+        {
+            "name": "Thomas D'Ascoli",
+            "email": "thomas@dasco.li"
+        }
+    ]
+}

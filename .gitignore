@@ -1,0 +1,8 @@
+/node_modules
+/app
+/.tmp
+/.sass-cache
+/bower_components
+/vendor/
+/src/.env
+/sandbox
